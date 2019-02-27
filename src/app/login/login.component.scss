@@ -1,0 +1,24 @@
+.login-background{
+    background-image: url('../../assets/images/lantern-login-back-1.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+
+    opacity: 0.5;
+}
+
+#logo{
+    padding-top: 200px;
+    text-align: center;
+}
+
+#logo img{
+    height: 145px;
+}
+
+#login{
+    margin: 0 5px 0 5px;
+}
+
+#login input{
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="login-background">
+    <section id="logo">
+      <img src="../../assets/images/lantern-2.jpeg">
+    </section>
+    <section id="app-title"></section>
+    <section id="login">
+      <form name="login-form">
+        <label for="user-name">User Name</label>
+        <input name="user-name" type="text">
+        <label for="password">Password</label>
+        <input name="password" type="password">
+        <button type="button" name="submit" (click)="login()">Submit</button>
+      </form>
+    </section>
+  </div>
+</ion-content>
