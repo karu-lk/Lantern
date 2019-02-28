@@ -10,9 +10,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { ContactCoordinatorComponent } from './contact-coordinator/contact-coordinator.component';
+import { DanaRosterComponent } from './dana-roster/dana-roster.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, ContactCoordinatorComponent],
+  declarations: [AppComponent, LoginComponent, ContactCoordinatorComponent, DanaRosterComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
