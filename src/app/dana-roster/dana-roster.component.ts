@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dana-roster.component.scss']
 })
 export class DanaRosterComponent implements OnInit {
-
+  // sample code
+  // https://devdactic.com/ionic-calendar-angular-calendar/
   constructor() { }
 
   ngOnInit() {
